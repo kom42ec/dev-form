@@ -62,7 +62,7 @@ input[type="checkbox"] {
 input[type="submit"] {
   border: 1px solid var(--body-color);
   background: var(--form-bg);
-  padding: 2rem 5rem;
+  padding: 1rem 2rem;
   color: var(--body-color);
   cursor: pointer;
   margin-top: 3rem;

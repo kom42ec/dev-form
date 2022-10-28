@@ -11,10 +11,10 @@
   --bg-color: rgba(250, 251, 255, 1);
   --border-color: rgba(226, 232, 240, 0.8);
   --text-color: rgba(55, 65, 81, 1);
-
   --form-bg: rgba(249, 250, 251, 1);
 
   --bg-gradient: linear-gradient(to bottom right, #3466f6, #7c3aed);
+  --light-gradient: linear-gradient(to bottom right, #eff6ff, #ddd6fe);
 
   --inter-font: "Inter", sans-serif;
   --jakarta-font: "Plus Jakarta Sans", sans-serif;
@@ -117,6 +117,18 @@ p {
   margin-bottom: 1rem;
 }
 
+.shape {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 10%;
+  right: 10%;
+  z-index: -10;
+  background: var(--light-gradient);
+  filter: blur(21px);
+}
+
 /* HEADER */
 header {
   border-bottom: 1px solid var(--border-color);
@@ -157,6 +169,7 @@ header {
 /* HERO SECTION */
 
 .hero-section {
+  position: relative;
   margin-top: 7rem;
   padding: 15rem 0;
   /* height: calc(100vh - 7rem); */
