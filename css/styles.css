@@ -257,9 +257,10 @@ img.bigger {
   margin-bottom: 3rem;
   background-color: #fff;
   border: 1px solid var(--border-color);
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
+  box-shadow: 3px 3px 20px var(--border-color);
 }
 
 .ddd-img img {
