@@ -206,6 +206,34 @@ header {
   z-index: -1;
 }
 
+/* LOGOS */
+
+.logos-section {
+  /* padding-top: 5rem; */
+  padding-bottom: 10rem;
+}
+
+.logos-section {
+  text-align: center;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  filter: brightness(0);
+  opacity: 0.3;
+}
+.logos img {
+  height: 3.5rem;
+}
+img.smaller {
+  height: 2rem;
+}
+
+img.bigger {
+  height: 5.5rem;
+}
+
 /* HOW IT WORKS SECTION */
 
 .how-section {
