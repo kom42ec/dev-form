@@ -98,6 +98,17 @@ p {
   margin-bottom: 4rem;
 }
 
+.suptitle {
+  display: inline-block;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  font-family: var(--inter-font);
+  color: var(--bg-gradient);
+  margin-bottom: 1rem;
+}
+
 .number {
   display: inline-block;
   font-size: 5rem;
@@ -182,17 +193,6 @@ header {
   z-index: -1;
 }
 
-.home-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 25rem;
-  z-index: 100;
-  color: #fff;
-  filter: blur(1px);
-}
-
 /* HOW IT WORKS SECTION */
 
 .how-section {
@@ -205,6 +205,9 @@ header {
   gap: 12rem;
 }
 
+.heading {
+  padding-bottom: 5rem;
+}
 /* INFO SECTION */
 
 .info-section {
