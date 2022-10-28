@@ -33,7 +33,11 @@
         </div>
 
         <div class="search-field">
-          <input type="search" placeholder="Search for the job" />
+          <input
+            disabled
+            type="search"
+            placeholder="Do not search for the job anymore"
+          />
           <ion-icon class="search-icon" name="search-outline"></ion-icon>
         </div>
       </div>
@@ -44,7 +48,7 @@
           <div class="text-box">
             <h1>
               Focus on <span class="gradient">coding</span>, not searching for
-              the first job
+              your next job
             </h1>
             <p class="subtitle">
               This is an example page for collecting information about web
@@ -60,8 +64,10 @@
             </div>
             <div class="password">
               <label for="password">Password:</label>
-              <input type="text" id="password" name="password" />
+              <input type="password" id="password" name="password" />
             </div>
+            <input type="checkbox" name="checkin" id="checkin" /> Keep me logged
+            in
             <div class="login">
               <input type="submit" value="Log In" />
             </div>
