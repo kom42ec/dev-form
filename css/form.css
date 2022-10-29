@@ -59,7 +59,8 @@ input[type="checkbox"] {
 /****************************************/
 /* SUBMIT */
 /****************************************/
-input[type="submit"] {
+input[type="submit"],
+input[type="reset"] {
   border: 1px solid var(--body-color);
   background: var(--form-bg);
   padding: 1rem 2rem;
@@ -72,6 +73,19 @@ input[type="submit"] {
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 0;
+}
+
+.buttons input[type="submit"],
+.buttons input[type="reset"] {
+  margin-top: 2rem;
+  border: 1px solid #fff;
+  background: var(--light-gradient);
+}
+
+.buttons input[type="submit"] {
+  background: var(--bg-gradient);
+  color: #fff;
+  margin-right: 1rem;
 }
 
 /***************************************/
