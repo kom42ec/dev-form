@@ -91,6 +91,5 @@ fieldset {
   border: 1px solid var(--border-color);
   background-color: #fff;
   border-radius: 10px;
-  height: 70vh;
   padding: 5rem;
 }
