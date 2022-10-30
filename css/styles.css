@@ -285,6 +285,12 @@ img.bigger {
   gap: 6rem;
 }
 
+/* SKILLS */
+
+.skill-set {
+  width: 50%;
+}
+
 /* FOOTER */
 
 footer {
