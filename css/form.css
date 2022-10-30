@@ -56,7 +56,7 @@ input[type="search"]::placeholder {
   margin-right: 0.5rem;
 }
 
-.skills input[type="checkbox"] {
+/* .skills input[type="checkbox"] {
   display: inline-block;
   -webkit-appearance: none;
   appearance: none;
@@ -72,7 +72,7 @@ input[type="search"]::placeholder {
 
 .skills input[type="checkbox"]:checked {
   background: var(--bg-gradient);
-}
+} */
 /****************************************/
 /* SUBMIT */
 /****************************************/
