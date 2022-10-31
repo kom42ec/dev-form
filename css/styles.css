@@ -287,8 +287,12 @@ img.bigger {
 
 /* SKILLS */
 
-.skill-set {
-  width: 50%;
+.skills-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
 }
 
 /* FOOTER */
