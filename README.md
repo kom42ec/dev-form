@@ -4,17 +4,17 @@ This is a fictional form for web developers who want to find a tech job. It is a
 
 ## What is next?
 
-- Each form element should take only half of the container element. The other half should be left for the text explaining what and why data is collected. // DONE
+- _Each form element should take only half of the container element. The other half should be left for the text explaining what and why data is collected._ // DONE
 
-- Create a large grid and put all forms and text inside, one next to each other. // DONE
+- _Create a large grid and put all forms and text inside, one next to each other._ // DONE
 
-- Each form comes with its own Submit and Reset buttons. Create primary and secondary button. // DONE
+- _Each form comes with its own Submit and Reset buttons. Create primary and secondary button._ // DONE
 
-- First form: A form for collecting personal data: First name, Last name, Email address, Phone number, Date of birth, Age. // DONE
+- _First form: A form for collecting personal data: First name, Last name, Email address, Phone number, Date of birth, Age._ // DONE
 
-- Second form: A form for collecting professional data: Website URL, Linkedin URL, Github URL, Resume PDF file, etc. // DONE
+- _Second form: A form for collecting professional data: Website URL, Linkedin URL, Github URL, Resume PDF file, etc._ // DONE
 
-- Third form: A form for collecting education and experience level: Highest form of education dropdown, Level of expertise dropdown, Years of experience radio button, Kind of web developer radio button. // NEXT
+- **Third form: A form for collecting education and experience level: Highest form of education dropdown, Level of expertise dropdown, Years of experience radio button, Kind of web developer radio button.** // NEXT
 
 - Forth form: A form for collecting skills. A number of checkboxes with all possible skills, tools, and programming languages. Maybe add a range button to select the level of expertise in each of them? TBD
 
