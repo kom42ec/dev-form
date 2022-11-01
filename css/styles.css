@@ -33,6 +33,12 @@ body {
   background: var(--bg-color);
 }
 
+img {
+  display: block;
+  max-width: 70%;
+  margin-top: 3rem;
+}
+
 .container {
   max-width: 120rem;
   padding: 0 3rem;

@@ -8,11 +8,11 @@ This is a fictional form for web developers who want to find a tech job. It is a
 
 - Create a large grid and put all forms and text inside, one next to each other. // DONE
 
-- Each form comes with its own Submit and Reset buttons. Create primary and secondary button. // NEXT
+- Each form comes with its own Submit and Reset buttons. Create primary and secondary button. // DONE
 
-- First form: A form for collecting personal data: First name, Last name, Email address, Phone number, Date of birth, Age.
+- First form: A form for collecting personal data: First name, Last name, Email address, Phone number, Date of birth, Age. // DONE
 
-- Second form: A form for collecting professional data: Website URL, Linkedin URL, Github URL, Resume PDF file, etc.
+- Second form: A form for collecting professional data: Website URL, Linkedin URL, Github URL, Resume PDF file, etc. // NEXT
 
 - Third form: A form for collecting education and experience level: Highest form of education dropdown, Level of expertise dropdown, Years of experience radio button, Kind of web developer radio button.
 
