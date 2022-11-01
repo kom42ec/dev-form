@@ -68,7 +68,7 @@ input[type="search"]::placeholder {
 /****************************************/
 /* SUBMIT */
 /****************************************/
-input[type="submit"],
+/* input[type="submit"],
 input[type="reset"] {
   border: 1px solid var(--body-color);
   background: var(--form-bg);
@@ -82,9 +82,9 @@ input[type="reset"] {
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 0;
-}
+} */
 
-.buttons input[type="submit"],
+/* .buttons input[type="submit"],
 .buttons input[type="reset"] {
   margin-top: 2rem;
   border: 1px solid #fff;
@@ -95,7 +95,7 @@ input[type="reset"] {
   background: var(--bg-gradient);
   color: #fff;
   margin-right: 1rem;
-}
+} */
 
 /***************************************/
 /* LABELS, LEGENDS, FIELDSETS */
