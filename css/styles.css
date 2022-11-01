@@ -40,6 +40,12 @@ body {
   margin-right: auto;
 }
 
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+
 /* PADDING */
 
 .p-small {
