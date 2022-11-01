@@ -145,7 +145,7 @@
             <!-- Personal info -->
             <div class="text-box">
               <span class="suptitle gradient">Personal info</span>
-              <h2>First, lets get to know you better</h2>
+              <h2>Lets get to know you better</h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
                 a aliquam laboriosam autem! Facilis dolor consequatur doloribus
@@ -212,31 +212,42 @@
               <form action="" method="">
                 <fieldset>
                   <div class="website">
-                    <label for="url">Your website:</label>
+                    <label for="website">Your website:</label>
                     <input
                       type="url"
-                      id="url"
+                      id="website"
                       name="website"
                       pattern="https://.*"
+                      placeholder="www.johndoe.dev"
+                    />
+                  </div>
+                  <div class="linkedin">
+                    <label for="linkedin">Your Linkedin:</label>
+                    <input
+                      type="url"
+                      id="linkedin"
+                      name="linkedin"
+                      pattern="https://www.linkedin.com/in/*"
+                      placeholder="linkedin.com/in/johndoe"
+                    />
+                  </div>
+                  <div class="github">
+                    <label for="github">Your Github:</label>
+                    <input
+                      type="url"
+                      id="github"
+                      name="github"
+                      pattern="https://github.com/*"
+                      placeholder="github.com/johndoe"
                     />
                   </div>
                   
                   
                   <div class="file">
-                    <label for="file">Attach your resume:</label>
+                    <label for="file">Your resume:</label>
                     <input type="file" id="file" accept=".pdf" name="resume" />
                   </div>
-                  <div class="education">
-                    <label for="school">Highest form of education:</label>
-                    <select name="education" id="school">
-                      <option value="">--Select an option--</option>
-                      <option value="high-school">High school</option>
-                      <option value="high-school">Associate degree</option>
-                      <option value="high-school">Bachelor's degree</option>
-                      <option value="high-school">Master's degree</option>
-                      <option value="high-school">Doctoral degree</option>
-                    </select>
-                  </div>
+                  
                   <div class="buttons">
                     <input type="submit" class="btn btn-primary" value="Submit form" />
                     <input type="reset" class="btn btn-secondary" value="Reset form" />
@@ -247,14 +258,15 @@
               
             </div>
             <div class="text-box">
-              <span class="suptitle gradient">Personal info</span>
-              <h2>First, lets get to know you better</h2>
+              <span class="suptitle gradient">Professional info</span>
+              <h2>Share your professional background</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
                 dolor, pariatur et ex quisquam autem suscipit dignissimos
                 explicabo natus reiciendis voluptates possimus quasi fuga
                 blanditiis, recusandae quo ipsam! Sapiente, neque.
               </p>
+              <img src="img/grk/imageedit_3_9947195470.png" alt="">
             </div>
 
             <!-- Education and experience -->
@@ -272,6 +284,19 @@
             <div class="form-box">
               <form action="" method="">
                 <fieldset class="skill-set">
+
+                  <div class="education">
+                    <label for="school">Highest form of education:</label>
+                    <select name="education" id="school">
+                      <option value="">--Select an option--</option>
+                      <option value="high-school">High school</option>
+                      <option value="high-school">Associate degree</option>
+                      <option value="high-school">Bachelor's degree</option>
+                      <option value="high-school">Master's degree</option>
+                      <option value="high-school">Doctoral degree</option>
+                    </select>
+                  </div>
+
                   <div class="expertise-level">
                     <label for="level">What is your level of expertise?</label>
                     <select name="level" id="level">
