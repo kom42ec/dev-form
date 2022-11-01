@@ -115,4 +115,5 @@ fieldset {
   background-color: #fff;
   border-radius: 10px;
   padding: 5rem;
+  box-shadow: 3px 3px 20px var(--border-color);
 }
