@@ -106,6 +106,14 @@ img {
   margin-top: 5rem;
 }
 
+.btn-hero,
+.btn-hero:link,
+.btn-hero:visited {
+  background: var(--bg-gradient);
+  padding: 2rem 5rem;
+  color: #fff;
+}
+
 /* TESTIMONIALS */
 
 .testimonials-box {
