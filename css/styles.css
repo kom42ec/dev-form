@@ -35,8 +35,7 @@ body {
 
 img {
   display: block;
-  max-width: 70%;
-  margin-top: 3rem;
+  max-width: 100%;
 }
 
 .container {
@@ -110,8 +109,18 @@ img {
 
 .testimonial {
   display: grid;
-  grid-template-columns: 1fr 7fr;
+  grid-template-columns: 1fr 8fr;
   gap: 2rem;
+  margin-top: 3rem;
+}
+
+.uiface {
+  border-radius: 50%;
+  box-shadow: 3px 3px 20px var(--border-color);
+}
+
+.quote {
+  margin-top: 1.2rem;
 }
 
 .testimonial-name {
@@ -132,6 +141,8 @@ img {
   font-size: 1.8rem;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+/* GRADIENT */
 
 .gradient {
   background: var(--bg-gradient);
