@@ -48,7 +48,8 @@ img {
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10rem;
+  column-gap: 10rem;
+  row-gap: 15rem;
 }
 
 /* PADDING */
@@ -217,7 +218,7 @@ p {
 
 .number {
   display: inline-block;
-  font-size: 5rem;
+  font-size: 10rem;
   font-weight: 900;
   color: var(--border-color);
   margin-bottom: 1rem;
@@ -276,15 +277,13 @@ header {
 
 .hero-section {
   position: relative;
-  margin-top: 7rem;
-  padding: 15rem 0;
-  /* height: calc(100vh - 7rem); */
+  margin-top: 8rem;
 }
 
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 14rem;
+  gap: 10rem;
 }
 
 .sign-box {
@@ -315,11 +314,6 @@ header {
 /* LOGOS */
 
 .logos-section {
-  /* padding-top: 5rem; */
-  padding-bottom: 10rem;
-}
-
-.logos-section {
   text-align: center;
 }
 .logos {
@@ -341,10 +335,6 @@ img.bigger {
 }
 
 /* HOW IT WORKS SECTION */
-
-.how-section {
-  padding: 5rem 0;
-}
 
 .steps {
   display: grid;
