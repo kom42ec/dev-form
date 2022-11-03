@@ -18,6 +18,6 @@ This is a fictional form for web developers who want to find a tech job. It is a
 
 - Forth form: A form for collecting skills. A number of checkboxes with all possible skills, tools, and programming languages. Maybe add a range button to select the level of expertise in each of them? TBD
 
-- Replace text box images with a text about the form next to it and a testimonial from a developer who got a job with the service.
+- _Replace text box images with a text about the form next to it and a testimonial from a developer who got a job with the service._ // DONE
 
 - To be continued...
