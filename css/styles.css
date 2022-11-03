@@ -279,6 +279,34 @@ header {
   font-size: 2.4rem;
   font-weight: 900;
   font-family: var(--jakarta-font);
+  width: 20%;
+}
+
+.main-nav {
+  width: 20%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.nav-item {
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-color);
+  display: inline-block;
+  padding: 1rem;
+}
+
+.nav-link:hover {
+  color: var(--body-color);
+  transform: scale(1.1);
 }
 
 /* HERO SECTION */
