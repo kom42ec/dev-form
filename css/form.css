@@ -32,15 +32,15 @@ input[type="search"] {
   padding-right: 3rem;
   margin-bottom: 0;
   border-radius: 99px;
-  color: var(--text-color);
+  color: var(--form-bg);
+  background: var(--form-bg);
 }
 
 input[type="search"]:disabled {
   cursor: not-allowed;
-  background: var(--border-color);
 }
 
-input[type="search"]::placeholder {
+input[type="search"]:hover::placeholder {
   color: var(--text-color);
 }
 
