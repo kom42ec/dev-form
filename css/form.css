@@ -67,9 +67,30 @@ input[type="search"]:hover::placeholder {
 }
 
 .radio-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.radio-grid label {
+  width: auto;
+}
+
+.roles-grid input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+.roles-grid label {
+  width: auto;
+}
+
+.roles-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /****************************************/
