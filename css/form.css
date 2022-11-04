@@ -81,6 +81,7 @@ input[type="search"]:hover::placeholder {
 .roles-grid input[type="checkbox"] {
   display: inline-block;
   width: auto;
+  margin-bottom: 0;
 }
 
 .roles-grid label {
@@ -91,6 +92,11 @@ input[type="search"]:hover::placeholder {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.radio-grid,
+.roles-grid {
+  margin-top: 1.5rem;
 }
 
 /****************************************/
