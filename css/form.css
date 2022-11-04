@@ -60,9 +60,16 @@ input[type="search"]:hover::placeholder {
 /* RADIO */
 /****************************************/
 
-.experience-level input[type="radio"] {
+.radio-grid input[type="radio"] {
   display: inline-block;
   width: auto;
+  margin-bottom: 0;
+}
+
+.radio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
 /****************************************/
