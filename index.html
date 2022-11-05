@@ -46,10 +46,10 @@
         <nav class="main-nav">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="#" class="nav-link">Log in</a>
+              <a href="#" id="login" class="nav-link">Log in</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Sign up</a>
+              <a href="#" id="signup" class="nav-link">Sign up</a>
             </li>
           </ul>
         </nav>
@@ -59,10 +59,24 @@
     <!-- MAIN -->
     <main>
       <div class="overlay"></div>
+      <div id="login-box" class="sign-box">
+        <h3 class="gradient">Already a user?</h3>
+        <div class="username">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" />
+        </div>
+        <div class="password">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <input type="checkbox" name="checkin" id="checkin" /> Keep me logged in
+        <div class="buttons">
+          <input type="submit" class="btn btn-secondary" value="Log In" />
+        </div>
+      </div>
       <!-- HERO SECTION -->
-      <section class="hero-section p-large">
+      <section class="hero-section p-medium">
         <div class="container hero">
-          <div class="shape"></div>
           <div class="text-box">
             <h1>
               Focus on <span class="gradient">coding</span>, not searching for
@@ -74,21 +88,9 @@
             </p>
             <a href="#" class="btn btn-hero">Get Hired</a>
           </div>
-          <div class="sign-box">
-            <h3 class="gradient">Already a user?</h3>
-            <div class="username">
-              <label for="username">Username:</label>
-              <input type="text" id="username" name="username" />
-            </div>
-            <div class="password">
-              <label for="password">Password:</label>
-              <input type="password" id="password" name="password" />
-            </div>
-            <input type="checkbox" name="checkin" id="checkin" /> Keep me logged
-            in
-            <div class="buttons">
-              <input type="submit" class="btn btn-secondary" value="Log In" />
-            </div>
+
+          <div class="img-box">
+            <img class="hero-img" src="img/hero/payton.jpg" alt="" />
           </div>
         </div>
       </section>

@@ -60,9 +60,9 @@ img {
   left: 0;
   min-height: 100vh;
   width: 100%;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(250, 251, 255, 0.97);
   backdrop-filter: blur(2px);
-  z-index: 9999;
+  z-index: 100;
   display: none;
 }
 
@@ -342,6 +342,13 @@ header {
   border-radius: 12px;
   box-shadow: 3px 3px 20px var(--border-color);
   padding: 4rem;
+  width: 50rem;
+  z-index: 200;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
 }
 
 .image-box {
@@ -359,6 +366,12 @@ header {
   filter: blur(72px);
   border-radius: 50%;
   z-index: -1;
+}
+
+.hero-img {
+  display: block;
+  max-width: 100%;
+  margin-top: -40%;
 }
 
 /* LOGOS */
